@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+.container-fluid{
+    text-align: center;
+    background-image: linear-gradient(right to left,rgba(0,0,0,0.2) ,rgba(255,255,255,255));
+}
+.heading{
+    
+    height:10vh;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
+.heading span{
+    font-weight: bold;
+   color:coral
+}
+.table-responsive{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:5px;
+}
+.table{
+    width: 90%;
+    text-align: center;
+    border-radius: 2px;
+    border-color: cadetblue;
+    
+}
+.table thead{
+    padding: 5px;
+    background-color: #2b2e4a;
+    color:white;
+    height:60px;
+}
+.table thead th{
+    line-height: 1.2rem;
+    letter-spacing:0.3;
+}
+.table thead tr{
+    height:40px;
+}
